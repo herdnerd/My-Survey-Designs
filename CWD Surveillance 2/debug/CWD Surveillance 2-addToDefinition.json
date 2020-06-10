@@ -1,0 +1,895 @@
+{
+    "layers": [
+        {
+            "adminLayerInfo": {
+                "geometryField": {
+                    "name": "CWD_Surveillance_point",
+                    "srid": 4326
+                }
+            },
+            "allowGeometryUpdates": true,
+            "capabilities": "Query,Editing,Create,Update,Delete",
+            "copyrightText": "",
+            "defaultVisibility": true,
+            "description": "",
+            "displayField": "objectid",
+            "drawingInfo": {
+                "labelingInfo": null,
+                "renderer": {
+                    "description": "Survey Data Locations",
+                    "label": "CWD Surveillance 2",
+                    "symbol": {
+                        "angle": 0,
+                        "color": [
+                            255,
+                            0,
+                            0,
+                            255
+                        ],
+                        "outline": {
+                            "color": [
+                                255,
+                                255,
+                                0,
+                                255
+                            ],
+                            "width": 1
+                        },
+                        "size": 8,
+                        "style": "esriSMSCircle",
+                        "type": "esriSMS",
+                        "xoffset": 0,
+                        "yoffset": 0
+                    },
+                    "type": "simple"
+                },
+                "transparency": 0
+            },
+            "extent": {
+                "spatialReference": {
+                    "wkid": 4326
+                },
+                "type": "extent",
+                "xmax": 180,
+                "xmin": -180,
+                "ymax": 90,
+                "ymin": -90
+            },
+            "fields": [
+                {
+                    "alias": "ObjectID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "name": "objectid",
+                    "nullable": false,
+                    "type": "esriFieldTypeOID"
+                },
+                {
+                    "alias": "GlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "length": 38,
+                    "name": "globalid",
+                    "nullable": false,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGlobalID"
+                },
+                {
+                    "alias": "idno",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "idno",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "samp_type",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "0",
+                                "name": "Hunter-harvested"
+                            },
+                            {
+                                "code": "1",
+                                "name": "Roadkill"
+                            },
+                            {
+                                "code": "2",
+                                "name": "Clinical"
+                            },
+                            {
+                                "code": "5",
+                                "name": "Found Dead"
+                            },
+                            {
+                                "code": "4",
+                                "name": "Depredation"
+                            },
+                            {
+                                "code": "7",
+                                "name": "Targeted Removal"
+                            },
+                            {
+                                "code": "6",
+                                "name": "Illegal Import"
+                            },
+                            {
+                                "code": "3",
+                                "name": "Other"
+                            }
+                        ],
+                        "name": "cvd_samp_type",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 1,
+                    "name": "samp_type",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "twra_no",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "twra_no",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "hunter_name",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "hunter_name",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "conf_no",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "conf_no",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "harvest_date",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "harvest_date",
+                    "nullable": true,
+                    "type": "esriFieldTypeDate",
+                    "visible": true
+                },
+                {
+                    "alias": "hfth",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "1",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "0",
+                                "name": "No"
+                            },
+                            {
+                                "code": "2",
+                                "name": "Not Sure"
+                            }
+                        ],
+                        "name": "cvd_hfth",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "hfth",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "incentive",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "1",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "0",
+                                "name": "No"
+                            },
+                            {
+                                "code": "2",
+                                "name": "Not Sure"
+                            }
+                        ],
+                        "name": "cvd_incentive",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 50,
+                    "name": "incentive",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "program",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "1",
+                                "name": "Taxidermist"
+                            },
+                            {
+                                "code": "0",
+                                "name": "Tier 1 Processor"
+                            },
+                            {
+                                "code": "3",
+                                "name": "Tier 2 Processor"
+                            },
+                            {
+                                "code": "2",
+                                "name": "Freezer"
+                            }
+                        ],
+                        "name": "cvd_program",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "program",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "county",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "Anderson",
+                                "name": "Anderson"
+                            },
+                            {
+                                "code": "Bedford",
+                                "name": "Bedford"
+                            },
+                            {
+                                "code": "Benton",
+                                "name": "Benton"
+                            },
+                            {
+                                "code": "Bledsoe",
+                                "name": "Bledsoe"
+                            },
+                            {
+                                "code": "Blount",
+                                "name": "Blount"
+                            },
+                            {
+                                "code": "Bradley",
+                                "name": "Bradley"
+                            },
+                            {
+                                "code": "Campbell",
+                                "name": "Campbell"
+                            },
+                            {
+                                "code": "Cannon",
+                                "name": "Cannon"
+                            },
+                            {
+                                "code": "Carroll",
+                                "name": "Carroll"
+                            },
+                            {
+                                "code": "Carter",
+                                "name": "Carter"
+                            },
+                            {
+                                "code": "Cheatham",
+                                "name": "Cheatham"
+                            },
+                            {
+                                "code": "Chester",
+                                "name": "Chester"
+                            },
+                            {
+                                "code": "Claiborne",
+                                "name": "Claiborne"
+                            },
+                            {
+                                "code": "Clay",
+                                "name": "Clay"
+                            },
+                            {
+                                "code": "Cocke",
+                                "name": "Cocke"
+                            },
+                            {
+                                "code": "Coffee",
+                                "name": "Coffee"
+                            },
+                            {
+                                "code": "Crockett",
+                                "name": "Crockett"
+                            },
+                            {
+                                "code": "Cumberland",
+                                "name": "Cumberland"
+                            },
+                            {
+                                "code": "Davidson",
+                                "name": "Davidson"
+                            },
+                            {
+                                "code": "Decatur",
+                                "name": "Decatur"
+                            },
+                            {
+                                "code": "DeKalb",
+                                "name": "DeKalb"
+                            },
+                            {
+                                "code": "Dickson",
+                                "name": "Dickson"
+                            },
+                            {
+                                "code": "Dyer",
+                                "name": "Dyer"
+                            },
+                            {
+                                "code": "Fayette",
+                                "name": "Fayette"
+                            },
+                            {
+                                "code": "Fentress",
+                                "name": "Fentress"
+                            },
+                            {
+                                "code": "Franklin",
+                                "name": "Franklin"
+                            },
+                            {
+                                "code": "Gibson",
+                                "name": "Gibson"
+                            },
+                            {
+                                "code": "Giles",
+                                "name": "Giles"
+                            },
+                            {
+                                "code": "Grainger",
+                                "name": "Grainger"
+                            },
+                            {
+                                "code": "Greene",
+                                "name": "Greene"
+                            },
+                            {
+                                "code": "Grundy",
+                                "name": "Grundy"
+                            },
+                            {
+                                "code": "Hamblen",
+                                "name": "Hamblen"
+                            },
+                            {
+                                "code": "Hamilton",
+                                "name": "Hamilton"
+                            },
+                            {
+                                "code": "Hancock",
+                                "name": "Hancock"
+                            },
+                            {
+                                "code": "Hardeman",
+                                "name": "Hardeman"
+                            },
+                            {
+                                "code": "Hardin",
+                                "name": "Hardin"
+                            },
+                            {
+                                "code": "Hawkins",
+                                "name": "Hawkins"
+                            },
+                            {
+                                "code": "Haywood",
+                                "name": "Haywood"
+                            },
+                            {
+                                "code": "Henderson",
+                                "name": "Henderson"
+                            },
+                            {
+                                "code": "Henry",
+                                "name": "Henry"
+                            },
+                            {
+                                "code": "Hickman",
+                                "name": "Hickman"
+                            },
+                            {
+                                "code": "Houston",
+                                "name": "Houston"
+                            },
+                            {
+                                "code": "Humphreys",
+                                "name": "Humphreys"
+                            },
+                            {
+                                "code": "Jackson",
+                                "name": "Jackson"
+                            },
+                            {
+                                "code": "Jefferson",
+                                "name": "Jefferson"
+                            },
+                            {
+                                "code": "Johnson",
+                                "name": "Johnson"
+                            },
+                            {
+                                "code": "Knox",
+                                "name": "Knox"
+                            },
+                            {
+                                "code": "Lake",
+                                "name": "Lake"
+                            },
+                            {
+                                "code": "Lauderdale",
+                                "name": "Lauderdale"
+                            },
+                            {
+                                "code": "Lawrence",
+                                "name": "Lawrence"
+                            },
+                            {
+                                "code": "Lewis",
+                                "name": "Lewis"
+                            },
+                            {
+                                "code": "Lincoln",
+                                "name": "Lincoln"
+                            },
+                            {
+                                "code": "Loudon",
+                                "name": "Loudon"
+                            },
+                            {
+                                "code": "McMinn",
+                                "name": "McMinn"
+                            },
+                            {
+                                "code": "McNairy",
+                                "name": "McNairy"
+                            },
+                            {
+                                "code": "Macon",
+                                "name": "Macon"
+                            },
+                            {
+                                "code": "Madison",
+                                "name": "Madison"
+                            },
+                            {
+                                "code": "Marion",
+                                "name": "Marion"
+                            },
+                            {
+                                "code": "Marshall",
+                                "name": "Marshall"
+                            },
+                            {
+                                "code": "Maury",
+                                "name": "Maury"
+                            },
+                            {
+                                "code": "Meigs",
+                                "name": "Meigs"
+                            },
+                            {
+                                "code": "Monroe",
+                                "name": "Monroe"
+                            },
+                            {
+                                "code": "Montgomery",
+                                "name": "Montgomery"
+                            },
+                            {
+                                "code": "Moore",
+                                "name": "Moore"
+                            },
+                            {
+                                "code": "Morgan",
+                                "name": "Morgan"
+                            },
+                            {
+                                "code": "Obion",
+                                "name": "Obion"
+                            },
+                            {
+                                "code": "Overton",
+                                "name": "Overton"
+                            },
+                            {
+                                "code": "Perry",
+                                "name": "Perry"
+                            },
+                            {
+                                "code": "Pickett",
+                                "name": "Pickett"
+                            },
+                            {
+                                "code": "Polk",
+                                "name": "Polk"
+                            },
+                            {
+                                "code": "Putnam",
+                                "name": "Putnam"
+                            },
+                            {
+                                "code": "Rhea",
+                                "name": "Rhea"
+                            },
+                            {
+                                "code": "Roane",
+                                "name": "Roane"
+                            },
+                            {
+                                "code": "Robertson",
+                                "name": "Robertson"
+                            },
+                            {
+                                "code": "Rutherford",
+                                "name": "Rutherford"
+                            },
+                            {
+                                "code": "Scott",
+                                "name": "Scott"
+                            },
+                            {
+                                "code": "Sequatchie",
+                                "name": "Sequatchie"
+                            },
+                            {
+                                "code": "Sevier",
+                                "name": "Sevier"
+                            },
+                            {
+                                "code": "Shelby",
+                                "name": "Shelby"
+                            },
+                            {
+                                "code": "Smith",
+                                "name": "Smith"
+                            },
+                            {
+                                "code": "Stewart",
+                                "name": "Stewart"
+                            },
+                            {
+                                "code": "Sullivan",
+                                "name": "Sullivan"
+                            },
+                            {
+                                "code": "Sumner",
+                                "name": "Sumner"
+                            },
+                            {
+                                "code": "Tipton",
+                                "name": "Tipton"
+                            },
+                            {
+                                "code": "Trousdale",
+                                "name": "Trousdale"
+                            },
+                            {
+                                "code": "Unicoi",
+                                "name": "Unicoi"
+                            },
+                            {
+                                "code": "Union",
+                                "name": "Union"
+                            },
+                            {
+                                "code": "VanBuren",
+                                "name": "Van Buren"
+                            },
+                            {
+                                "code": "Warren",
+                                "name": "Warren"
+                            },
+                            {
+                                "code": "Washington",
+                                "name": "Washington"
+                            },
+                            {
+                                "code": "Wayne",
+                                "name": "Wayne"
+                            },
+                            {
+                                "code": "Weakley",
+                                "name": "Weakley"
+                            },
+                            {
+                                "code": "White",
+                                "name": "White"
+                            },
+                            {
+                                "code": "Williamson",
+                                "name": "Williamson"
+                            },
+                            {
+                                "code": "Wilson",
+                                "name": "Wilson"
+                            }
+                        ],
+                        "name": "cvd_county",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 10,
+                    "name": "county",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "state",
+                    "domain": null,
+                    "editable": true,
+                    "length": 2,
+                    "name": "state",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "sex",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "male",
+                                "name": "Male"
+                            },
+                            {
+                                "code": "female",
+                                "name": "Female"
+                            },
+                            {
+                                "code": "unknown",
+                                "name": "Unknown"
+                            }
+                        ],
+                        "name": "cvd_sex",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 7,
+                    "name": "sex",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "age_group",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "0",
+                                "name": "No Age"
+                            },
+                            {
+                                "code": "1",
+                                "name": "Fawn"
+                            },
+                            {
+                                "code": "2",
+                                "name": "Yearling"
+                            },
+                            {
+                                "code": "3",
+                                "name": "Adult (2.5+)"
+                            }
+                        ],
+                        "name": "cvd_age_group",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 1,
+                    "name": "age_group",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "age",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "age",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "samp_date",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "samp_date",
+                    "nullable": true,
+                    "type": "esriFieldTypeDate",
+                    "visible": true
+                },
+                {
+                    "alias": "pres_type",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "0",
+                                "name": "Frozen Whirlpack"
+                            },
+                            {
+                                "code": "1",
+                                "name": "Formalin"
+                            },
+                            {
+                                "code": "2",
+                                "name": "Untestable"
+                            }
+                        ],
+                        "name": "cvd_pres_type",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 1,
+                    "name": "pres_type",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "species",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "0",
+                                "name": "Deer"
+                            },
+                            {
+                                "code": "1",
+                                "name": "Elk"
+                            }
+                        ],
+                        "name": "cvd_species",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 1,
+                    "name": "species",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "tissue",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "0",
+                                "name": "Lymph Nodes"
+                            },
+                            {
+                                "code": "1",
+                                "name": "Obex"
+                            }
+                        ],
+                        "name": "cvd_tissue",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 1,
+                    "name": "tissue",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "notes",
+                    "domain": null,
+                    "editable": true,
+                    "length": 1000,
+                    "name": "notes",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "deviceID",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "deviceID",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "version",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "version",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "photo_location",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "photo_location",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                }
+            ],
+            "geometryType": "esriGeometryPoint",
+            "globalIdField": "globalid",
+            "hasAttachments": true,
+            "hasM": false,
+            "hasStaticData": false,
+            "hasZ": false,
+            "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+            "id": 0,
+            "indexes": [
+                {
+                    "description": "GlobalID index",
+                    "fields": "globalid",
+                    "isAscending": false,
+                    "isUnique": true,
+                    "name": "GlobalIDIndex"
+                }
+            ],
+            "isDataVersioned": false,
+            "maxRecordCount": 1000,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "CWD_Surveillance_2",
+            "objectIdField": "objectid",
+            "relationships": [
+            ],
+            "supportedQueryFormats": "JSON",
+            "supportsAdvancedQueries": true,
+            "supportsRollbackOnFailureParameter": true,
+            "supportsStatistics": true,
+            "templates": [
+            ],
+            "type": "Feature Layer",
+            "typeIdField": "",
+            "types": [
+            ]
+        }
+    ]
+}

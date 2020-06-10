@@ -1,0 +1,57 @@
+{
+    "access": "shared",
+    "accessInformation": null,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "commentsEnabled": true,
+    "created": 1537999300000,
+    "culture": "en-us",
+    "description": "\n<p style='-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;'><br /></p>",
+    "documentation": null,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "e477c781ad29411693eb0bb85d74c946",
+    "industries": [
+    ],
+    "itemControl": "admin",
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "licenseInfo": null,
+    "listed": false,
+    "modified": 1564670160000,
+    "name": "CWD_Surveillance.zip",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 123,
+    "orgId": "zuo58QgvcwmSLj4h",
+    "owner": "james.kelly",
+    "ownerFolder": "aa48ca6ab5d7466794509f6faa66f709",
+    "properties": null,
+    "protected": false,
+    "proxyFilter": null,
+    "scoreCompleteness": 56,
+    "screenshots": [
+    ],
+    "size": 5486789,
+    "snippet": "Form for collecting Chronic Wasting Disease (CWD) surveillance data in Tennessee.",
+    "spatialReference": null,
+    "tags": [
+    ],
+    "thumbnail": "thumbnail/CWD_Surveillance.png",
+    "title": "CWD Surveillance",
+    "type": "Form",
+    "typeKeywords": [
+        "Form",
+        "Survey123",
+        "Survey123 Connect",
+        "xForm"
+    ],
+    "url": null
+}

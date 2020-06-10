@@ -1,0 +1,2024 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:esri="http://esri.com/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>TWRA CWD Surveillance</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="static_instance-states-4">
+            <value>California</value>
+          </text>
+          <text id="static_instance-states-5">
+            <value>Colorado</value>
+          </text>
+          <text id="static_instance-states-6">
+            <value>Connecticut</value>
+          </text>
+          <text id="static_instance-states-7">
+            <value>Delaware</value>
+          </text>
+          <text id="static_instance-states-0">
+            <value>Alabama</value>
+          </text>
+          <text id="static_instance-states-1">
+            <value>Alaska</value>
+          </text>
+          <text id="static_instance-states-2">
+            <value>Arizona</value>
+          </text>
+          <text id="static_instance-states-3">
+            <value>Arkansas</value>
+          </text>
+          <text id="static_instance-states-8">
+            <value>Florida</value>
+          </text>
+          <text id="static_instance-states-9">
+            <value>Georgia</value>
+          </text>
+          <text id="static_instance-counties-38">
+            <value>Henderson</value>
+          </text>
+          <text id="static_instance-counties-39">
+            <value>Henry</value>
+          </text>
+          <text id="static_instance-counties-36">
+            <value>Hawkins</value>
+          </text>
+          <text id="static_instance-counties-37">
+            <value>Haywood</value>
+          </text>
+          <text id="static_instance-counties-34">
+            <value>Hardeman</value>
+          </text>
+          <text id="static_instance-counties-35">
+            <value>Hardin</value>
+          </text>
+          <text id="static_instance-counties-32">
+            <value>Hamilton</value>
+          </text>
+          <text id="static_instance-counties-33">
+            <value>Hancock</value>
+          </text>
+          <text id="static_instance-counties-30">
+            <value>Grundy</value>
+          </text>
+          <text id="static_instance-counties-31">
+            <value>Hamblen</value>
+          </text>
+          <text id="static_instance-states-34">
+            <value>Ohio</value>
+          </text>
+          <text id="static_instance-states-35">
+            <value>Oklahoma</value>
+          </text>
+          <text id="static_instance-states-36">
+            <value>Oregon</value>
+          </text>
+          <text id="static_instance-states-37">
+            <value>Pennsylvania</value>
+          </text>
+          <text id="static_instance-states-30">
+            <value>New Mexico</value>
+          </text>
+          <text id="static_instance-states-31">
+            <value>New York</value>
+          </text>
+          <text id="static_instance-states-32">
+            <value>North Carolina</value>
+          </text>
+          <text id="static_instance-states-33">
+            <value>North Dakota</value>
+          </text>
+          <text id="static_instance-counties-6">
+            <value>Campbell</value>
+          </text>
+          <text id="static_instance-counties-7">
+            <value>Cannon</value>
+          </text>
+          <text id="static_instance-counties-4">
+            <value>Blount</value>
+          </text>
+          <text id="static_instance-counties-5">
+            <value>Bradley</value>
+          </text>
+          <text id="static_instance-states-38">
+            <value>Rhode Island</value>
+          </text>
+          <text id="static_instance-states-39">
+            <value>South Carolina</value>
+          </text>
+          <text id="static_instance-counties-0">
+            <value>Anderson</value>
+          </text>
+          <text id="static_instance-counties-1">
+            <value>Bedford</value>
+          </text>
+          <text id="static_instance-counties-49">
+            <value>Lawrence</value>
+          </text>
+          <text id="static_instance-counties-48">
+            <value>Lauderdale</value>
+          </text>
+          <text id="static_instance-counties-43">
+            <value>Jackson</value>
+          </text>
+          <text id="static_instance-counties-42">
+            <value>Humphreys</value>
+          </text>
+          <text id="static_instance-counties-41">
+            <value>Houston</value>
+          </text>
+          <text id="static_instance-counties-40">
+            <value>Hickman</value>
+          </text>
+          <text id="static_instance-counties-47">
+            <value>Lake</value>
+          </text>
+          <text id="static_instance-counties-46">
+            <value>Knox</value>
+          </text>
+          <text id="static_instance-counties-45">
+            <value>Johnson</value>
+          </text>
+          <text id="static_instance-counties-44">
+            <value>Jefferson</value>
+          </text>
+          <text id="static_instance-states-41">
+            <value>Tennessee</value>
+          </text>
+          <text id="static_instance-states-40">
+            <value>South Dakota</value>
+          </text>
+          <text id="static_instance-states-43">
+            <value>Utah</value>
+          </text>
+          <text id="static_instance-states-42">
+            <value>Texas</value>
+          </text>
+          <text id="static_instance-states-45">
+            <value>Virginia</value>
+          </text>
+          <text id="static_instance-states-44">
+            <value>Vermont</value>
+          </text>
+          <text id="static_instance-states-47">
+            <value>West Virginia</value>
+          </text>
+          <text id="static_instance-states-46">
+            <value>Washington</value>
+          </text>
+          <text id="static_instance-states-49">
+            <value>Wyoming</value>
+          </text>
+          <text id="static_instance-states-48">
+            <value>Wisconsin</value>
+          </text>
+          <text id="static_instance-counties-58">
+            <value>Marshall</value>
+          </text>
+          <text id="static_instance-counties-59">
+            <value>Maury</value>
+          </text>
+          <text id="static_instance-counties-50">
+            <value>Lewis</value>
+          </text>
+          <text id="static_instance-counties-51">
+            <value>Lincoln</value>
+          </text>
+          <text id="static_instance-counties-52">
+            <value>Loudon</value>
+          </text>
+          <text id="static_instance-counties-53">
+            <value>McMinn</value>
+          </text>
+          <text id="static_instance-counties-54">
+            <value>McNairy</value>
+          </text>
+          <text id="static_instance-counties-55">
+            <value>Macon</value>
+          </text>
+          <text id="static_instance-counties-56">
+            <value>Madison</value>
+          </text>
+          <text id="static_instance-counties-57">
+            <value>Marion</value>
+          </text>
+          <text id="static_instance-counties-69">
+            <value>Polk</value>
+          </text>
+          <text id="static_instance-counties-68">
+            <value>Pickett</value>
+          </text>
+          <text id="static_instance-states-50">
+            <value>Unknown</value>
+          </text>
+          <text id="static_instance-species-1">
+            <value>Elk</value>
+          </text>
+          <text id="static_instance-species-0">
+            <value>Deer</value>
+          </text>
+          <text id="static_instance-age_group-2">
+            <value>Yearling</value>
+          </text>
+          <text id="static_instance-age_group-3">
+            <value>Adult (2.5+)</value>
+          </text>
+          <text id="static_instance-age_group-0">
+            <value>No Age</value>
+          </text>
+          <text id="static_instance-age_group-1">
+            <value>Fawn</value>
+          </text>
+          <text id="static_instance-counties-65">
+            <value>Obion</value>
+          </text>
+          <text id="static_instance-counties-64">
+            <value>Morgan</value>
+          </text>
+          <text id="static_instance-counties-67">
+            <value>Perry</value>
+          </text>
+          <text id="static_instance-counties-66">
+            <value>Overton</value>
+          </text>
+          <text id="static_instance-counties-61">
+            <value>Monroe</value>
+          </text>
+          <text id="static_instance-counties-60">
+            <value>Meigs</value>
+          </text>
+          <text id="static_instance-counties-63">
+            <value>Moore</value>
+          </text>
+          <text id="static_instance-counties-62">
+            <value>Montgomery</value>
+          </text>
+          <text id="static_instance-tissue-1">
+            <value>Obex</value>
+          </text>
+          <text id="static_instance-tissue-0">
+            <value>Lymph Nodes</value>
+          </text>
+          <text id="static_instance-type-0">
+            <value>Hunter-harvested</value>
+          </text>
+          <text id="static_instance-type-1">
+            <value>Roadkill</value>
+          </text>
+          <text id="static_instance-type-2">
+            <value>Clinical</value>
+          </text>
+          <text id="static_instance-type-3">
+            <value>Found Dead</value>
+          </text>
+          <text id="static_instance-type-4">
+            <value>Depredation</value>
+          </text>
+          <text id="static_instance-type-5">
+            <value>Targeted Removal</value>
+          </text>
+          <text id="static_instance-type-6">
+            <value>Illegal Import</value>
+          </text>
+          <text id="static_instance-type-7">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-binomial-2">
+            <value>Not Sure</value>
+          </text>
+          <text id="static_instance-binomial-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-binomial-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-pres_type-2">
+            <value>Untestable</value>
+          </text>
+          <text id="static_instance-pres_type-0">
+            <value>Frozen Whirlpack</value>
+          </text>
+          <text id="static_instance-pres_type-1">
+            <value>Formalin</value>
+          </text>
+          <text id="static_instance-counties-72">
+            <value>Roane</value>
+          </text>
+          <text id="static_instance-counties-73">
+            <value>Robertson</value>
+          </text>
+          <text id="static_instance-counties-70">
+            <value>Putnam</value>
+          </text>
+          <text id="static_instance-counties-71">
+            <value>Rhea</value>
+          </text>
+          <text id="static_instance-counties-76">
+            <value>Sequatchie</value>
+          </text>
+          <text id="static_instance-counties-77">
+            <value>Sevier</value>
+          </text>
+          <text id="static_instance-counties-74">
+            <value>Rutherford</value>
+          </text>
+          <text id="static_instance-counties-75">
+            <value>Scott</value>
+          </text>
+          <text id="static_instance-counties-78">
+            <value>Shelby</value>
+          </text>
+          <text id="static_instance-counties-79">
+            <value>Smith</value>
+          </text>
+          <text id="static_instance-sex-1">
+            <value>Female</value>
+          </text>
+          <text id="static_instance-sex-0">
+            <value>Male</value>
+          </text>
+          <text id="static_instance-sex-2">
+            <value>Unknown</value>
+          </text>
+          <text id="static_instance-counties-8">
+            <value>Carroll</value>
+          </text>
+          <text id="static_instance-counties-18">
+            <value>Davidson</value>
+          </text>
+          <text id="static_instance-counties-9">
+            <value>Carter</value>
+          </text>
+          <text id="static_instance-counties-19">
+            <value>Decatur</value>
+          </text>
+          <text id="static_instance-ages-0">
+            <value>Not Sure</value>
+          </text>
+          <text id="static_instance-ages-1">
+            <value>2.5</value>
+          </text>
+          <text id="static_instance-ages-2">
+            <value>3.5</value>
+          </text>
+          <text id="static_instance-ages-3">
+            <value>4.5</value>
+          </text>
+          <text id="static_instance-ages-4">
+            <value>5.5+</value>
+          </text>
+          <text id="static_instance-counties-2">
+            <value>Benton</value>
+          </text>
+          <text id="static_instance-counties-3">
+            <value>Bledsoe</value>
+          </text>
+          <text id="static_instance-counties-14">
+            <value>Cocke</value>
+          </text>
+          <text id="static_instance-counties-15">
+            <value>Coffee</value>
+          </text>
+          <text id="static_instance-counties-16">
+            <value>Crockett</value>
+          </text>
+          <text id="static_instance-counties-17">
+            <value>Cumberland</value>
+          </text>
+          <text id="static_instance-counties-10">
+            <value>Cheatham</value>
+          </text>
+          <text id="static_instance-counties-11">
+            <value>Chester</value>
+          </text>
+          <text id="static_instance-counties-12">
+            <value>Claiborne</value>
+          </text>
+          <text id="static_instance-counties-13">
+            <value>Clay</value>
+          </text>
+          <text id="static_instance-program-1">
+            <value>Tier 1 Processor</value>
+          </text>
+          <text id="static_instance-program-0">
+            <value>Taxidermist</value>
+          </text>
+          <text id="static_instance-program-3">
+            <value>Freezer</value>
+          </text>
+          <text id="static_instance-program-2">
+            <value>Tier 2 Processor</value>
+          </text>
+          <text id="static_instance-counties-89">
+            <value>Washington</value>
+          </text>
+          <text id="static_instance-counties-88">
+            <value>Warren</value>
+          </text>
+          <text id="static_instance-counties-87">
+            <value>Van Buren</value>
+          </text>
+          <text id="static_instance-counties-86">
+            <value>Union</value>
+          </text>
+          <text id="static_instance-counties-85">
+            <value>Unicoi</value>
+          </text>
+          <text id="static_instance-counties-84">
+            <value>Trousdale</value>
+          </text>
+          <text id="static_instance-counties-83">
+            <value>Tipton</value>
+          </text>
+          <text id="static_instance-counties-82">
+            <value>Sumner</value>
+          </text>
+          <text id="static_instance-counties-81">
+            <value>Sullivan</value>
+          </text>
+          <text id="static_instance-counties-80">
+            <value>Stewart</value>
+          </text>
+          <text id="static_instance-states-18">
+            <value>Maine</value>
+          </text>
+          <text id="static_instance-states-19">
+            <value>Maryland</value>
+          </text>
+          <text id="static_instance-states-16">
+            <value>Kentucky</value>
+          </text>
+          <text id="static_instance-states-17">
+            <value>Louisiana</value>
+          </text>
+          <text id="static_instance-states-14">
+            <value>Iowa</value>
+          </text>
+          <text id="static_instance-states-15">
+            <value>Kansas</value>
+          </text>
+          <text id="static_instance-states-12">
+            <value>Illinois</value>
+          </text>
+          <text id="static_instance-states-13">
+            <value>Indiana</value>
+          </text>
+          <text id="static_instance-states-10">
+            <value>Hawaii</value>
+          </text>
+          <text id="static_instance-states-11">
+            <value>Idaho</value>
+          </text>
+          <text id="static_instance-counties-29">
+            <value>Greene</value>
+          </text>
+          <text id="static_instance-counties-28">
+            <value>Grainger</value>
+          </text>
+          <text id="static_instance-counties-21">
+            <value>Dickson</value>
+          </text>
+          <text id="static_instance-counties-20">
+            <value>DeKalb</value>
+          </text>
+          <text id="static_instance-counties-23">
+            <value>Fayette</value>
+          </text>
+          <text id="static_instance-counties-22">
+            <value>Dyer</value>
+          </text>
+          <text id="static_instance-counties-25">
+            <value>Franklin</value>
+          </text>
+          <text id="static_instance-counties-24">
+            <value>Fentress</value>
+          </text>
+          <text id="static_instance-counties-27">
+            <value>Giles</value>
+          </text>
+          <text id="static_instance-counties-26">
+            <value>Gibson</value>
+          </text>
+          <text id="static_instance-counties-94">
+            <value>Wilson</value>
+          </text>
+          <text id="static_instance-counties-90">
+            <value>Wayne</value>
+          </text>
+          <text id="static_instance-counties-91">
+            <value>Weakley</value>
+          </text>
+          <text id="static_instance-counties-92">
+            <value>White</value>
+          </text>
+          <text id="static_instance-counties-93">
+            <value>Williamson</value>
+          </text>
+          <text id="static_instance-states-23">
+            <value>Mississippi</value>
+          </text>
+          <text id="static_instance-states-22">
+            <value>Minnesota</value>
+          </text>
+          <text id="static_instance-states-21">
+            <value>Michigan</value>
+          </text>
+          <text id="static_instance-states-20">
+            <value>Massachusetts</value>
+          </text>
+          <text id="static_instance-states-27">
+            <value>Nevada</value>
+          </text>
+          <text id="static_instance-states-26">
+            <value>Nebraska</value>
+          </text>
+          <text id="static_instance-states-25">
+            <value>Montana</value>
+          </text>
+          <text id="static_instance-states-24">
+            <value>Missouri</value>
+          </text>
+          <text id="static_instance-states-29">
+            <value>New Jersey</value>
+          </text>
+          <text id="static_instance-states-28">
+            <value>New Hampshire</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <CWD_Surveillance_2 id="CWD_Surveillance_2">
+          <fakeid/>
+          <idno/>
+          <samp_type>0</samp_type>
+          <harvest_info>
+            <update_survey/>
+            <conf_no/>
+            <twra_no/>
+            <hunter_name/>
+            <d0/>
+            <u0/>
+            <d2/>
+            <harvest_date/>
+            <hfth/>
+            <incentive/>
+            <program/>
+          </harvest_info>
+          <location>
+            <county/>
+            <CWD_Surveillance_point/>
+          </location>
+          <state/>
+          <age_sex>
+            <sex/>
+            <age_group/>
+            <age/>
+          </age_sex>
+          <other>
+            <note/>
+            <samp_date>today()</samp_date>
+            <pres_type>0</pres_type>
+            <species>0</species>
+            <tissue>0</tissue>
+            <notes/>
+            <pic/>
+          </other>
+          <deviceID/>
+          <photo_location/>
+          <result/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </CWD_Surveillance_2>
+      </instance>
+      <instance id="confirmations" src="jr://file-csv/confirmations.csv">
+        <root>
+          <item>
+            <name>_</name>
+            <label>_</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="@property" src="jr://file-csv/@property.csv">
+        <root>
+          <item>
+            <name>_</name>
+            <label>_</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="program">
+        <root>
+          <item>
+            <itextId>static_instance-program-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-program-1</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-program-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-program-3</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="type">
+        <root>
+          <item>
+            <itextId>static_instance-type-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-type-1</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-type-2</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-type-3</itextId>
+            <name>5</name>
+          </item>
+          <item>
+            <itextId>static_instance-type-4</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-type-5</itextId>
+            <name>7</name>
+          </item>
+          <item>
+            <itextId>static_instance-type-6</itextId>
+            <name>6</name>
+          </item>
+          <item>
+            <itextId>static_instance-type-7</itextId>
+            <name>3</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ages">
+        <root>
+          <item>
+            <itextId>static_instance-ages-0</itextId>
+            <age_group>3</age_group>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-1</itextId>
+            <age_group>3</age_group>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-2</itextId>
+            <age_group>3</age_group>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-3</itextId>
+            <age_group>3</age_group>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-4</itextId>
+            <age_group>3</age_group>
+            <name>5</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sex">
+        <root>
+          <item>
+            <itextId>static_instance-sex-0</itextId>
+            <name>male</name>
+          </item>
+          <item>
+            <itextId>static_instance-sex-1</itextId>
+            <name>female</name>
+          </item>
+          <item>
+            <itextId>static_instance-sex-2</itextId>
+            <name>unknown</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="pres_type">
+        <root>
+          <item>
+            <itextId>static_instance-pres_type-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-pres_type-1</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-pres_type-2</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="states">
+        <root>
+          <item>
+            <itextId>static_instance-states-0</itextId>
+            <name>AL</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-1</itextId>
+            <name>AK</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-2</itextId>
+            <name>AZ</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-3</itextId>
+            <name>AR</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-4</itextId>
+            <name>CA</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-5</itextId>
+            <name>CO</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-6</itextId>
+            <name>CT</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-7</itextId>
+            <name>DE</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-8</itextId>
+            <name>FL</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-9</itextId>
+            <name>GA</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-10</itextId>
+            <name>HI</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-11</itextId>
+            <name>ID</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-12</itextId>
+            <name>IL</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-13</itextId>
+            <name>IN</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-14</itextId>
+            <name>IA</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-15</itextId>
+            <name>KS</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-16</itextId>
+            <name>KY</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-17</itextId>
+            <name>LA</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-18</itextId>
+            <name>ME</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-19</itextId>
+            <name>MD</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-20</itextId>
+            <name>MA</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-21</itextId>
+            <name>MI</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-22</itextId>
+            <name>MN</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-23</itextId>
+            <name>MS</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-24</itextId>
+            <name>MO</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-25</itextId>
+            <name>MT</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-26</itextId>
+            <name>NE</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-27</itextId>
+            <name>NV</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-28</itextId>
+            <name>NH</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-29</itextId>
+            <name>NJ</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-30</itextId>
+            <name>NM</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-31</itextId>
+            <name>NY</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-32</itextId>
+            <name>NC</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-33</itextId>
+            <name>ND</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-34</itextId>
+            <name>OH</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-35</itextId>
+            <name>OK</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-36</itextId>
+            <name>OR</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-37</itextId>
+            <name>PA</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-38</itextId>
+            <name>RI</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-39</itextId>
+            <name>SC</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-40</itextId>
+            <name>SD</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-41</itextId>
+            <name>TN</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-42</itextId>
+            <name>TX</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-43</itextId>
+            <name>UT</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-44</itextId>
+            <name>VT</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-45</itextId>
+            <name>VA</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-46</itextId>
+            <name>WA</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-47</itextId>
+            <name>WV</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-48</itextId>
+            <name>WI</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-49</itextId>
+            <name>WY</name>
+          </item>
+          <item>
+            <itextId>static_instance-states-50</itextId>
+            <name>NA</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="tissue">
+        <root>
+          <item>
+            <itextId>static_instance-tissue-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-tissue-1</itextId>
+            <name>1</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="binomial">
+        <root>
+          <item>
+            <itextId>static_instance-binomial-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-binomial-1</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-binomial-2</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="age_group">
+        <root>
+          <item>
+            <itextId>static_instance-age_group-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-age_group-1</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-age_group-2</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-age_group-3</itextId>
+            <name>3</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="species">
+        <root>
+          <item>
+            <itextId>static_instance-species-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-species-1</itextId>
+            <name>1</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="counties">
+        <root>
+          <item>
+            <itextId>static_instance-counties-0</itextId>
+            <name>Anderson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-1</itextId>
+            <name>Bedford</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-2</itextId>
+            <name>Benton</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-3</itextId>
+            <name>Bledsoe</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-4</itextId>
+            <name>Blount</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-5</itextId>
+            <name>Bradley</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-6</itextId>
+            <name>Campbell</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-7</itextId>
+            <name>Cannon</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-8</itextId>
+            <name>Carroll</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-9</itextId>
+            <name>Carter</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-10</itextId>
+            <name>Cheatham</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-11</itextId>
+            <name>Chester</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-12</itextId>
+            <name>Claiborne</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-13</itextId>
+            <name>Clay</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-14</itextId>
+            <name>Cocke</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-15</itextId>
+            <name>Coffee</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-16</itextId>
+            <name>Crockett</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-17</itextId>
+            <name>Cumberland</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-18</itextId>
+            <name>Davidson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-19</itextId>
+            <name>Decatur</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-20</itextId>
+            <name>DeKalb</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-21</itextId>
+            <name>Dickson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-22</itextId>
+            <name>Dyer</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-23</itextId>
+            <name>Fayette</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-24</itextId>
+            <name>Fentress</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-25</itextId>
+            <name>Franklin</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-26</itextId>
+            <name>Gibson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-27</itextId>
+            <name>Giles</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-28</itextId>
+            <name>Grainger</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-29</itextId>
+            <name>Greene</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-30</itextId>
+            <name>Grundy</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-31</itextId>
+            <name>Hamblen</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-32</itextId>
+            <name>Hamilton</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-33</itextId>
+            <name>Hancock</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-34</itextId>
+            <name>Hardeman</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-35</itextId>
+            <name>Hardin</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-36</itextId>
+            <name>Hawkins</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-37</itextId>
+            <name>Haywood</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-38</itextId>
+            <name>Henderson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-39</itextId>
+            <name>Henry</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-40</itextId>
+            <name>Hickman</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-41</itextId>
+            <name>Houston</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-42</itextId>
+            <name>Humphreys</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-43</itextId>
+            <name>Jackson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-44</itextId>
+            <name>Jefferson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-45</itextId>
+            <name>Johnson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-46</itextId>
+            <name>Knox</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-47</itextId>
+            <name>Lake</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-48</itextId>
+            <name>Lauderdale</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-49</itextId>
+            <name>Lawrence</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-50</itextId>
+            <name>Lewis</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-51</itextId>
+            <name>Lincoln</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-52</itextId>
+            <name>Loudon</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-53</itextId>
+            <name>McMinn</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-54</itextId>
+            <name>McNairy</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-55</itextId>
+            <name>Macon</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-56</itextId>
+            <name>Madison</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-57</itextId>
+            <name>Marion</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-58</itextId>
+            <name>Marshall</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-59</itextId>
+            <name>Maury</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-60</itextId>
+            <name>Meigs</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-61</itextId>
+            <name>Monroe</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-62</itextId>
+            <name>Montgomery</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-63</itextId>
+            <name>Moore</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-64</itextId>
+            <name>Morgan</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-65</itextId>
+            <name>Obion</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-66</itextId>
+            <name>Overton</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-67</itextId>
+            <name>Perry</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-68</itextId>
+            <name>Pickett</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-69</itextId>
+            <name>Polk</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-70</itextId>
+            <name>Putnam</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-71</itextId>
+            <name>Rhea</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-72</itextId>
+            <name>Roane</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-73</itextId>
+            <name>Robertson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-74</itextId>
+            <name>Rutherford</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-75</itextId>
+            <name>Scott</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-76</itextId>
+            <name>Sequatchie</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-77</itextId>
+            <name>Sevier</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-78</itextId>
+            <name>Shelby</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-79</itextId>
+            <name>Smith</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-80</itextId>
+            <name>Stewart</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-81</itextId>
+            <name>Sullivan</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-82</itextId>
+            <name>Sumner</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-83</itextId>
+            <name>Tipton</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-84</itextId>
+            <name>Trousdale</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-85</itextId>
+            <name>Unicoi</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-86</itextId>
+            <name>Union</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-87</itextId>
+            <name>VanBuren</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-88</itextId>
+            <name>Warren</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-89</itextId>
+            <name>Washington</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-90</itextId>
+            <name>Wayne</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-91</itextId>
+            <name>Weakley</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-92</itextId>
+            <name>White</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-93</itextId>
+            <name>Williamson</name>
+          </item>
+          <item>
+            <itextId>static_instance-counties-94</itextId>
+            <name>Wilson</name>
+          </item>
+        </root>
+      </instance>
+      <bind esri:fieldType="null" nodeset="/CWD_Surveillance_2/fakeid" required="true()" type="barcode"/>
+      <bind calculate="if(starts-with( /CWD_Surveillance_2/fakeid ,&quot;URL:&quot;),substr( /CWD_Surveillance_2/fakeid ,4,13),if(starts-with( /CWD_Surveillance_2/fakeid ,&quot;URL: &quot;),substr( /CWD_Surveillance_2/fakeid ,5,14),if(ends-with( /CWD_Surveillance_2/fakeid ,&quot; &quot;),substr( /CWD_Surveillance_2/fakeid ,0,string-length( /CWD_Surveillance_2/fakeid )-1), /CWD_Surveillance_2/fakeid )))" constraint="regex(., '^[R][1-5][1-2][0-9]\d{5}$')" esri:fieldAlias="idno" esri:fieldLength="255" esri:fieldType="esriFieldTypeString" jr:constraintMsg="Sample ID must be 9 characters long beginning with a capital &quot;R&quot;, region number (1-5), last 2 digits of the fiscal year, and the 5 digit incremented value. Scanning QR code is recommended to eliminate transcription error." nodeset="/CWD_Surveillance_2/idno" required="true()" type="string"/>
+      <bind esri:fieldAlias="samp_type" esri:fieldLength="1" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/samp_type" type="select1"/>
+      <bind nodeset="/CWD_Surveillance_2/harvest_info" relevant=" /CWD_Surveillance_2/samp_type ='0'"/>
+      <bind esri:fieldType="null" nodeset="/CWD_Surveillance_2/harvest_info/update_survey" readonly="true()" type="string"/>
+      <bind constraint="regex(., '^\d{8}$')" esri:fieldAlias="conf_no" esri:fieldLength="255" esri:fieldType="esriFieldTypeString" jr:constraintMsg="Confirmation number must be 8 characters long and contain numbers only. If entering data from &quot;paper kill tag&quot;, you must first enter tag into REAL to generate a confirmation number." nodeset="/CWD_Surveillance_2/harvest_info/conf_no" required="true()" type="string"/>
+      <bind calculate="pulldata('confirmations','id','conf',  /CWD_Surveillance_2/harvest_info/conf_no )" esri:fieldAlias="twra_no" esri:fieldLength="255" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/harvest_info/twra_no" type="string"/>
+      <bind calculate="concat(pulldata('customers','firstName','id',  /CWD_Surveillance_2/harvest_info/twra_no ),&quot; &quot;,pulldata('customers','lastName','id',  /CWD_Surveillance_2/harvest_info/twra_no ))" esri:fieldAlias="hunter_name" esri:fieldLength="255" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/harvest_info/hunter_name" type="string"/>
+      <bind calculate="pulldata('confirmations','harv_date','conf',  /CWD_Surveillance_2/harvest_info/conf_no )" esri:fieldType="null" nodeset="/CWD_Surveillance_2/harvest_info/d0" type="date"/>
+      <bind calculate="pulldata(&quot;@property&quot;, &quot;utcoffset&quot;)" esri:fieldType="null" nodeset="/CWD_Surveillance_2/harvest_info/u0" type="decimal"/>
+      <bind calculate=" /CWD_Surveillance_2/harvest_info/d0 " esri:fieldType="null" nodeset="/CWD_Surveillance_2/harvest_info/d2" type="datetime"/>
+      <bind calculate=" /CWD_Surveillance_2/harvest_info/d2  - ( /CWD_Surveillance_2/harvest_info/u0  * 1000*3600)" esri:fieldAlias="harvest_date" esri:fieldType="esriFieldTypeDate" nodeset="/CWD_Surveillance_2/harvest_info/harvest_date" type="date"/>
+      <bind esri:fieldAlias="hfth" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/harvest_info/hfth" required="true()" type="select1"/>
+      <bind esri:fieldAlias="incentive" esri:fieldLength="50" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/harvest_info/incentive" required="true()" type="select1"/>
+      <bind esri:fieldAlias="program" esri:fieldLength="255" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/harvest_info/program" relevant=" /CWD_Surveillance_2/harvest_info/incentive ='1'" required="true()" type="select1"/>
+      <bind nodeset="/CWD_Surveillance_2/location" relevant=" /CWD_Surveillance_2/samp_type !='6'"/>
+      <bind calculate="pulldata('confirmations','county','conf',  /CWD_Surveillance_2/harvest_info/conf_no )" esri:fieldAlias="county" esri:fieldLength="10" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/location/county" required="true()" type="select1"/>
+      <bind esri:fieldAlias="Point" nodeset="/CWD_Surveillance_2/location/CWD_Surveillance_point" relevant=" /CWD_Surveillance_2/samp_type !='0'" required="true()" type="geopoint"/>
+      <bind esri:fieldAlias="state" esri:fieldLength="2" esri:fieldType="esriFieldTypeString" jr:requiredMsg="State of origin is required. Select 'Unknown' if unsure." nodeset="/CWD_Surveillance_2/state" relevant=" /CWD_Surveillance_2/samp_type ='6'" required="true()" type="string"/>
+      <bind calculate="pulldata('confirmations','sex','conf',  /CWD_Surveillance_2/harvest_info/conf_no )" esri:fieldAlias="sex" esri:fieldLength="7" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/age_sex/sex" required="true()" type="select1"/>
+      <bind esri:fieldAlias="age_group" esri:fieldLength="1" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/age_sex/age_group" required="true()" type="select1"/>
+      <bind esri:fieldAlias="age" esri:fieldLength="255" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/age_sex/age" relevant=" /CWD_Surveillance_2/age_sex/age_group =&quot;3&quot;" required="true()" type="select1"/>
+      <bind esri:fieldType="null" nodeset="/CWD_Surveillance_2/other/note" readonly="true()" type="string"/>
+      <bind constraint=" /CWD_Surveillance_2/other/samp_date &lt;=today()" esri:fieldAlias="samp_date" esri:fieldType="esriFieldTypeDate" jr:constraintMsg="Sample date cannot be in the future. Enter today's date or a date in the past." nodeset="/CWD_Surveillance_2/other/samp_date" required="true()" type="date"/>
+      <bind esri:fieldAlias="pres_type" esri:fieldLength="1" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/other/pres_type" type="select1"/>
+      <bind esri:fieldAlias="species" esri:fieldLength="1" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/other/species" type="select1"/>
+      <bind esri:fieldAlias="tissue" esri:fieldLength="1" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/other/tissue" relevant=" /CWD_Surveillance_2/other/pres_type !=2" type="select1"/>
+      <bind esri:fieldAlias="notes" esri:fieldLength="1000" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/other/notes" type="string"/>
+      <bind nodeset="/CWD_Surveillance_2/other/pic" type="binary"/>
+      <bind esri:fieldAlias="deviceID" esri:fieldType="esriFieldTypeString" jr:preload="property" jr:preloadParams="deviceid" nodeset="/CWD_Surveillance_2/deviceID" type="string"/>
+      <bind calculate="string(pulldata(&quot;@exif&quot;,  /CWD_Surveillance_2/other/pic , &quot;gpslatitude&quot;)) + &quot; &quot; + string(pulldata(&quot;@exif&quot;,  /CWD_Surveillance_2/other/pic , &quot;gpslongitude&quot;))" esri:fieldAlias="photo_location" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/photo_location" type="string"/>
+      <bind esri:fieldAlias="result" esri:fieldType="esriFieldTypeString" nodeset="/CWD_Surveillance_2/result" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/CWD_Surveillance_2/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate=" /CWD_Surveillance_2/idno " nodeset="/CWD_Surveillance_2/meta/instanceName" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/CWD_Surveillance_2/fakeid">
+      <label>Sample ID</label>
+      <hint>Scan QR code or enter sample ID manually.</hint>
+    </input>
+    <select1 appearance="horizontal_compact" ref="/CWD_Surveillance_2/samp_type">
+      <label>&lt;center&gt;&lt;b&gt;Sample Type&lt;/b&gt;&lt;/center&gt;</label>
+      <item>
+        <label>Hunter-harvested</label>
+        <value>0</value>
+      </item>
+      <item>
+        <label>Roadkill</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>Clinical</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>Found Dead</label>
+        <value>5</value>
+      </item>
+      <item>
+        <label>Depredation</label>
+        <value>4</value>
+      </item>
+      <item>
+        <label>Targeted Removal</label>
+        <value>7</value>
+      </item>
+      <item>
+        <label>Illegal Import</label>
+        <value>6</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>3</value>
+      </item>
+    </select1>
+    <group ref="/CWD_Surveillance_2/harvest_info">
+      <label>Hunter Harvest Info</label>
+      <input ref="/CWD_Surveillance_2/harvest_info/update_survey">
+        <label>&lt;b&gt;&lt;font color ="red"&gt;To autopopulate hunter harvest info based on confirmation number, redownload this survey (i.e.,&lt;i&gt; CWD Surveillance 2&lt;/i&gt;) to retrieve harvests reported &gt;10 minutes ago. &lt;/font&gt;&lt;/b&gt;</label>
+        <hint>The app will retrieve updated harvest data from REAL every 10 minutes (with a few exceptions).</hint>
+      </input>
+      <input ref="/CWD_Surveillance_2/harvest_info/conf_no">
+        <label>Confirmation Number</label>
+        <hint>Accurate confirmation numbers are critical for communicating test results to hunters.</hint>
+      </input>
+      <input ref="/CWD_Surveillance_2/harvest_info/twra_no">
+        <label>TWRA Number</label>
+      </input>
+      <input ref="/CWD_Surveillance_2/harvest_info/hunter_name">
+        <label>Hunter Name</label>
+        <hint>&lt;b&gt;If hunter's name didn't auto-populate below after entering the TWRA number above&lt;/b&gt;, you either miskeyed the TWRA number &lt;b&gt;OR&lt;/b&gt; the hunter has no reported harvests prior to the 2019 season (in this case enter hunter name manually).</hint>
+      </input>
+      <input ref="/CWD_Surveillance_2/harvest_info/harvest_date">
+        <label>Date of Harvest</label>
+      </input>
+      <select1 appearance="horizontal_compact" ref="/CWD_Surveillance_2/harvest_info/hfth">
+        <label>Is this a donation to Hunters for the Hungry?</label>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>0</value>
+        </item>
+        <item>
+          <label>Not Sure</label>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal_compact" ref="/CWD_Surveillance_2/harvest_info/incentive">
+        <label>&lt;b&gt;Did you obtain sample via any of the following programs?&lt;/b&gt;&lt;blockquote&gt;&lt;ol&gt;&lt;li&gt; Taxidermist Incentive Program&lt;/li&gt;&lt;li&gt; Tier 1 Processor Incentive Program*&lt;/li&gt;&lt;li&gt; Tier 2 Processor Incentive Program**&lt;/li&gt;&lt;li&gt; Freezer Drop-off Program&lt;/li&gt;&lt;/ol&gt;&lt;/blockquote&gt;</label>
+        <hint>&lt;font color="red"&gt;&lt;b&gt;!!!&lt;/b&gt; If collected at a check station, answer No. &lt;/font&gt;&lt;br /&gt; 
+*Tier 1 - processor sets aside deer heads for staff to come sample at a later point in time&lt;br /&gt; 
+**Tier 2 - processor pulls CWD sample (similar to taxidermist program)&lt;br /&gt;</hint>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>0</value>
+        </item>
+        <item>
+          <label>Not Sure</label>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal_compact" ref="/CWD_Surveillance_2/harvest_info/program">
+        <label>Which program was it?</label>
+        <item>
+          <label>Taxidermist</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Tier 1 Processor</label>
+          <value>0</value>
+        </item>
+        <item>
+          <label>Tier 2 Processor</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>Freezer</label>
+          <value>2</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/CWD_Surveillance_2/location">
+      <label>Location</label>
+      <select1 appearance="autocomplete" ref="/CWD_Surveillance_2/location/county">
+        <label>County</label>
+        <hint>county where deer died</hint>
+        <item>
+          <label>Anderson</label>
+          <value>Anderson</value>
+        </item>
+        <item>
+          <label>Bedford</label>
+          <value>Bedford</value>
+        </item>
+        <item>
+          <label>Benton</label>
+          <value>Benton</value>
+        </item>
+        <item>
+          <label>Bledsoe</label>
+          <value>Bledsoe</value>
+        </item>
+        <item>
+          <label>Blount</label>
+          <value>Blount</value>
+        </item>
+        <item>
+          <label>Bradley</label>
+          <value>Bradley</value>
+        </item>
+        <item>
+          <label>Campbell</label>
+          <value>Campbell</value>
+        </item>
+        <item>
+          <label>Cannon</label>
+          <value>Cannon</value>
+        </item>
+        <item>
+          <label>Carroll</label>
+          <value>Carroll</value>
+        </item>
+        <item>
+          <label>Carter</label>
+          <value>Carter</value>
+        </item>
+        <item>
+          <label>Cheatham</label>
+          <value>Cheatham</value>
+        </item>
+        <item>
+          <label>Chester</label>
+          <value>Chester</value>
+        </item>
+        <item>
+          <label>Claiborne</label>
+          <value>Claiborne</value>
+        </item>
+        <item>
+          <label>Clay</label>
+          <value>Clay</value>
+        </item>
+        <item>
+          <label>Cocke</label>
+          <value>Cocke</value>
+        </item>
+        <item>
+          <label>Coffee</label>
+          <value>Coffee</value>
+        </item>
+        <item>
+          <label>Crockett</label>
+          <value>Crockett</value>
+        </item>
+        <item>
+          <label>Cumberland</label>
+          <value>Cumberland</value>
+        </item>
+        <item>
+          <label>Davidson</label>
+          <value>Davidson</value>
+        </item>
+        <item>
+          <label>Decatur</label>
+          <value>Decatur</value>
+        </item>
+        <item>
+          <label>DeKalb</label>
+          <value>DeKalb</value>
+        </item>
+        <item>
+          <label>Dickson</label>
+          <value>Dickson</value>
+        </item>
+        <item>
+          <label>Dyer</label>
+          <value>Dyer</value>
+        </item>
+        <item>
+          <label>Fayette</label>
+          <value>Fayette</value>
+        </item>
+        <item>
+          <label>Fentress</label>
+          <value>Fentress</value>
+        </item>
+        <item>
+          <label>Franklin</label>
+          <value>Franklin</value>
+        </item>
+        <item>
+          <label>Gibson</label>
+          <value>Gibson</value>
+        </item>
+        <item>
+          <label>Giles</label>
+          <value>Giles</value>
+        </item>
+        <item>
+          <label>Grainger</label>
+          <value>Grainger</value>
+        </item>
+        <item>
+          <label>Greene</label>
+          <value>Greene</value>
+        </item>
+        <item>
+          <label>Grundy</label>
+          <value>Grundy</value>
+        </item>
+        <item>
+          <label>Hamblen</label>
+          <value>Hamblen</value>
+        </item>
+        <item>
+          <label>Hamilton</label>
+          <value>Hamilton</value>
+        </item>
+        <item>
+          <label>Hancock</label>
+          <value>Hancock</value>
+        </item>
+        <item>
+          <label>Hardeman</label>
+          <value>Hardeman</value>
+        </item>
+        <item>
+          <label>Hardin</label>
+          <value>Hardin</value>
+        </item>
+        <item>
+          <label>Hawkins</label>
+          <value>Hawkins</value>
+        </item>
+        <item>
+          <label>Haywood</label>
+          <value>Haywood</value>
+        </item>
+        <item>
+          <label>Henderson</label>
+          <value>Henderson</value>
+        </item>
+        <item>
+          <label>Henry</label>
+          <value>Henry</value>
+        </item>
+        <item>
+          <label>Hickman</label>
+          <value>Hickman</value>
+        </item>
+        <item>
+          <label>Houston</label>
+          <value>Houston</value>
+        </item>
+        <item>
+          <label>Humphreys</label>
+          <value>Humphreys</value>
+        </item>
+        <item>
+          <label>Jackson</label>
+          <value>Jackson</value>
+        </item>
+        <item>
+          <label>Jefferson</label>
+          <value>Jefferson</value>
+        </item>
+        <item>
+          <label>Johnson</label>
+          <value>Johnson</value>
+        </item>
+        <item>
+          <label>Knox</label>
+          <value>Knox</value>
+        </item>
+        <item>
+          <label>Lake</label>
+          <value>Lake</value>
+        </item>
+        <item>
+          <label>Lauderdale</label>
+          <value>Lauderdale</value>
+        </item>
+        <item>
+          <label>Lawrence</label>
+          <value>Lawrence</value>
+        </item>
+        <item>
+          <label>Lewis</label>
+          <value>Lewis</value>
+        </item>
+        <item>
+          <label>Lincoln</label>
+          <value>Lincoln</value>
+        </item>
+        <item>
+          <label>Loudon</label>
+          <value>Loudon</value>
+        </item>
+        <item>
+          <label>McMinn</label>
+          <value>McMinn</value>
+        </item>
+        <item>
+          <label>McNairy</label>
+          <value>McNairy</value>
+        </item>
+        <item>
+          <label>Macon</label>
+          <value>Macon</value>
+        </item>
+        <item>
+          <label>Madison</label>
+          <value>Madison</value>
+        </item>
+        <item>
+          <label>Marion</label>
+          <value>Marion</value>
+        </item>
+        <item>
+          <label>Marshall</label>
+          <value>Marshall</value>
+        </item>
+        <item>
+          <label>Maury</label>
+          <value>Maury</value>
+        </item>
+        <item>
+          <label>Meigs</label>
+          <value>Meigs</value>
+        </item>
+        <item>
+          <label>Monroe</label>
+          <value>Monroe</value>
+        </item>
+        <item>
+          <label>Montgomery</label>
+          <value>Montgomery</value>
+        </item>
+        <item>
+          <label>Moore</label>
+          <value>Moore</value>
+        </item>
+        <item>
+          <label>Morgan</label>
+          <value>Morgan</value>
+        </item>
+        <item>
+          <label>Obion</label>
+          <value>Obion</value>
+        </item>
+        <item>
+          <label>Overton</label>
+          <value>Overton</value>
+        </item>
+        <item>
+          <label>Perry</label>
+          <value>Perry</value>
+        </item>
+        <item>
+          <label>Pickett</label>
+          <value>Pickett</value>
+        </item>
+        <item>
+          <label>Polk</label>
+          <value>Polk</value>
+        </item>
+        <item>
+          <label>Putnam</label>
+          <value>Putnam</value>
+        </item>
+        <item>
+          <label>Rhea</label>
+          <value>Rhea</value>
+        </item>
+        <item>
+          <label>Roane</label>
+          <value>Roane</value>
+        </item>
+        <item>
+          <label>Robertson</label>
+          <value>Robertson</value>
+        </item>
+        <item>
+          <label>Rutherford</label>
+          <value>Rutherford</value>
+        </item>
+        <item>
+          <label>Scott</label>
+          <value>Scott</value>
+        </item>
+        <item>
+          <label>Sequatchie</label>
+          <value>Sequatchie</value>
+        </item>
+        <item>
+          <label>Sevier</label>
+          <value>Sevier</value>
+        </item>
+        <item>
+          <label>Shelby</label>
+          <value>Shelby</value>
+        </item>
+        <item>
+          <label>Smith</label>
+          <value>Smith</value>
+        </item>
+        <item>
+          <label>Stewart</label>
+          <value>Stewart</value>
+        </item>
+        <item>
+          <label>Sullivan</label>
+          <value>Sullivan</value>
+        </item>
+        <item>
+          <label>Sumner</label>
+          <value>Sumner</value>
+        </item>
+        <item>
+          <label>Tipton</label>
+          <value>Tipton</value>
+        </item>
+        <item>
+          <label>Trousdale</label>
+          <value>Trousdale</value>
+        </item>
+        <item>
+          <label>Unicoi</label>
+          <value>Unicoi</value>
+        </item>
+        <item>
+          <label>Union</label>
+          <value>Union</value>
+        </item>
+        <item>
+          <label>Van Buren</label>
+          <value>VanBuren</value>
+        </item>
+        <item>
+          <label>Warren</label>
+          <value>Warren</value>
+        </item>
+        <item>
+          <label>Washington</label>
+          <value>Washington</value>
+        </item>
+        <item>
+          <label>Wayne</label>
+          <value>Wayne</value>
+        </item>
+        <item>
+          <label>Weakley</label>
+          <value>Weakley</value>
+        </item>
+        <item>
+          <label>White</label>
+          <value>White</value>
+        </item>
+        <item>
+          <label>Williamson</label>
+          <value>Williamson</value>
+        </item>
+        <item>
+          <label>Wilson</label>
+          <value>Wilson</value>
+        </item>
+      </select1>
+      <input ref="/CWD_Surveillance_2/location/CWD_Surveillance_point">
+        <label>Pinpoint sample location</label>
+        <hint>Click crosshairs icon to zoom to your current location.</hint>
+      </input>
+    </group>
+    <input appearance="autocomplete" ref="/CWD_Surveillance_2/state">
+      <label>From which state was the carcass imported?</label>
+    </input>
+    <group ref="/CWD_Surveillance_2/age_sex">
+      <label>Age &amp; Sex</label>
+      <select1 appearance="horizontal_compact" ref="/CWD_Surveillance_2/age_sex/sex">
+        <label>Sex</label>
+        <item>
+          <label>Male</label>
+          <value>male</value>
+        </item>
+        <item>
+          <label>Female</label>
+          <value>female</value>
+        </item>
+        <item>
+          <label>Unknown</label>
+          <value>unknown</value>
+        </item>
+      </select1>
+      <select1 appearance="likert" ref="/CWD_Surveillance_2/age_sex/age_group">
+        <label>Age Class</label>
+        <item>
+          <label>No Age</label>
+          <value>0</value>
+        </item>
+        <item>
+          <label>Fawn</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Yearling</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Adult (2.5+)</label>
+          <value>3</value>
+        </item>
+      </select1>
+      <select1 appearance="likert" ref="/CWD_Surveillance_2/age_sex/age">
+        <label>Age</label>
+        <hint>If confident aging beyond 2.5+, you may provide a more specific age estimate here.</hint>
+        <itemset nodeset="instance('ages')/root/item[age_group= /CWD_Surveillance_2/age_sex/age_group ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+    </group>
+    <group appearance="compact" ref="/CWD_Surveillance_2/other">
+      <label>Other Info</label>
+      <input ref="/CWD_Surveillance_2/other/note">
+        <label>&lt;i&gt;Below fields should be correct by default but may need to be changed in special circumstances&lt;/i&gt;</label>
+      </input>
+      <input ref="/CWD_Surveillance_2/other/samp_date">
+        <label>Date Sampled</label>
+      </input>
+      <select1 appearance="horizontal_compact" ref="/CWD_Surveillance_2/other/pres_type">
+        <label>Preservation Method</label>
+        <item>
+          <label>Frozen Whirlpack</label>
+          <value>0</value>
+        </item>
+        <item>
+          <label>Formalin</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Untestable</label>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal_compact" ref="/CWD_Surveillance_2/other/species">
+        <label>Species</label>
+        <item>
+          <label>Deer</label>
+          <value>0</value>
+        </item>
+        <item>
+          <label>Elk</label>
+          <value>1</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal_compact" ref="/CWD_Surveillance_2/other/tissue">
+        <label>Tissue Type</label>
+        <item>
+          <label>Lymph Nodes</label>
+          <value>0</value>
+        </item>
+        <item>
+          <label>Obex</label>
+          <value>1</value>
+        </item>
+      </select1>
+      <input appearance="multiline" ref="/CWD_Surveillance_2/other/notes">
+        <label>Notes</label>
+        <hint>(optional)</hint>
+      </input>
+      <upload mediatype="image/*" ref="/CWD_Surveillance_2/other/pic">
+        <label>Add a photo</label>
+        <hint>(optional)</hint>
+      </upload>
+    </group>
+  </h:body>
+</h:html>

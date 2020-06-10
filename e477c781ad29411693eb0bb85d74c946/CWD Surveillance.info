@@ -1,0 +1,39 @@
+{
+    "displayInfo": {
+        "map": {
+            "coordinateFormat": "dd",
+            "defaultType": {
+                "name": "World Street Map"
+            },
+            "home": {
+                "latitude": 36.1185,
+                "longitude": -84.1986,
+                "zoomLevel": 11
+            },
+            "preview": {
+                "coordinateFormat": "d",
+                "zoomLevel": 11
+            }
+        },
+        "style": {
+            "backgroundImage": "media/backgroundImage_Picture2.jpg",
+            "textColor": "#073C22",
+            "toolbarBackgroundColor": "#602A12"
+        }
+    },
+    "imagesInfo": {
+        "captureResolution": 640
+    },
+    "publishInfo": {
+        "connectVersion": "3.5.157",
+        "webFormTransform": true
+    },
+    "queryInfo": {
+        "applySpatialFilter": true,
+        "mode": "",
+        "where": ""
+    },
+    "sentInfo": {
+        "enabled": true
+    }
+}
